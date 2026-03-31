@@ -71,4 +71,9 @@ void tampilMenu() {
     cout << "0. Keluar" << endl;
     cout << "Pilih menu: ";
 }
-       
+ int main() {
+    while (true) {
+        tampilMenu();
+        cin >> pilihan;
+    }
+ }      
