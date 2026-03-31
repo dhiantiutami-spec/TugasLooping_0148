@@ -47,6 +47,8 @@ void inputAngka() {
 
 // Prosedur output hasil prima
 void tampilPrima() {
-    
+     if (isPrima(n)) {
+        cout << n << " adalah bilangan prima" << endl;
+     }
 }
        
