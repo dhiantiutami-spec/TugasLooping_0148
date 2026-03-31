@@ -5,8 +5,3 @@ using namespace std;
 int n;
 int pilihan;
 
-// Prosedur input
-void inputAngka() {
-    cout << "Masukkan sebuah bilangan: ";
-    cin >> n;
-}
