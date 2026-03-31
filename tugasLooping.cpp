@@ -45,4 +45,8 @@ void inputAngka() {
     cin >> n;
 }
 
+// Prosedur output hasil prima
+void tampilPrima() {
+    
+}
        
