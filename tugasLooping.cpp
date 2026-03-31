@@ -58,6 +58,8 @@ void tampilPrima() {
 void tampilFibonacci() {
     if (isFibonacci(n)) {
         cout << n << " termasuk bilangan Fibonacci" << endl;
-    } 
+    } else {
+        cout << n << " bukan bilangan Fibonacci" << endl;
+    }
 }
        
