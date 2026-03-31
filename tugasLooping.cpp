@@ -22,4 +22,14 @@ bool isPrima(int x) {
     return true; 
 }
 
+// Fungsi untuk cek bilangan Fibonacci
+bool isFibonacci(int x){
+    int a = 0, b = 1, c = 0;
+
+    while (c < x) {
+        c = a + b;
+        a = b;
+        b = c;
+    }
+}
        
