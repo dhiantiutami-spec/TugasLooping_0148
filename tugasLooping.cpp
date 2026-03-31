@@ -11,16 +11,12 @@ bool isPrima(int x) {
 
     int i = 2;
     while (i <= x / 2) {
-
-    int i = 2;
-    while (i <= x / 2){
         if (x % i == 0) {
             return false;
         }
-        i++; 
-        }
-    } 
-    return true; 
+        i++;
+    }
+    return true;
 }
 
 // Fungsi untuk cek bilangan Fibonacci
@@ -48,27 +44,27 @@ void inputAngka() {
 // Prosedur output hasil prima
 void tampilPrima() {
      if (isPrima(n)) {
-        cout << n << " adalah bilangan prima" << endl;
+        cout << n << " adalah bilangan prima" <<endl;
      } else {
-        cout << n << " bukan bilangan prima" << endl;
+        cout << n << " bukan bilangan prima" <<endl;
      }
 }
 
 // Prosedur output hasil fibonacci
 void tampilFibonacci() {
     if (isFibonacci(n)) {
-        cout << n << " termasuk bilangan Fibonacci" << endl;
+        cout << n << " termasuk bilangan Fibonacci" <<endl;
     } else {
-        cout << n << " bukan bilangan Fibonacci" << endl;
+        cout << n << " bukan bilangan Fibonacci" <<endl;
     }
 }
 
 // fungsi menu
 void tampilMenu() {
-    cout << "\n===== MENU =====" << endl;
-    cout << "1. Cek Bilangan Prima" << endl;
-    cout << "2. Cek Bilangan Fibonacci" << endl;
-    cout << "0. Keluar" << endl;
+    cout << "\n===== MENU =====" <<endl;
+    cout << "1. Cek Bilangan Prima" <<endl;
+    cout << "2. Cek Bilangan Fibonacci" <<endl;
+    cout << "0. Keluar" <<endl;
     cout << "Pilih menu: ";
 }
  int main() {
@@ -87,11 +83,11 @@ void tampilMenu() {
                 tampilFibonacci();
                 break;
             case 0:
-                cout << "Program selesai." << endl;
+                cout << "Program selesai." <<endl;
                 return 0;
 
             default:
-                cout << "Pilihan tidak valid!" << endl;
+                cout << "Pilihan tidak valid!" <<endl;
     }
  }      
   return 0;
